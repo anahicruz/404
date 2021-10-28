@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    font-family: montserrat;
+}
+
+img{
+    margin: 160px 230px;
+    width: 350px;
+    height: 370px;
+}
+
+h1{
+    position: relative;
+    left: 20px;
+    font-family:monospace;
+}
+
+.titulo1{
+    position: relative;
+    width: 450px;
+    left: 600px;
+    bottom: 500px;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.mensaje{
+    font-family: monospace;
+    position: relative;
+    bottom: 500px;
+    left: 600px;
+    font-size: 17px;
+    width: 260px;
+}
+
+
+.butoon button{
+    position: relative;
+    font-family: monospace;
+    bottom: 480px;
+    left: 600px;
+    background: #333333;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+@media only screen and (max-width:600px){
+    img{
+        position: relative;
+        bottom: 140px;
+        left: -200px;
+        width: 300px;
+        height: 280px;
+    }
+}
+
+@media only screen and (max-width:500px) { 
+    .titulo1{
+        position: relative;
+        left: 20px;
+        bottom: 330px;
+        font-size: 25px;
+        width: 270px;
+    }
+}
+
+@media only screen and (max-width:500px) { 
+    .mensaje{
+        position: relative;
+        left: 20px;
+        bottom: 340px;
+        font-size: 15px;
+        width: 270px;
+    }
+}
+
+@media only screen and (max-width:500px) { 
+    .butoon button{
+        position: relative;
+        left: 20px;
+        bottom: 310px;
+        font-size: 15px;
+        width: 190px;
+        height: 50px;
+    }
+}
